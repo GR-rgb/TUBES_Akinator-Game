@@ -62,3 +62,7 @@ class DecisionTree:
         if self.root is None:
             raise ValueError("Tree belum dibangun! Panggil build() terlebih dahulu.")
         return self.traverse(self.root, get_answer_func, on_guess_func)
+    
+
+
+

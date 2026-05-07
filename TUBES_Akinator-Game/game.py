@@ -3,13 +3,13 @@
 # Mengurus sesi tanya-jawab, input user, dan hasil tebakan
 
 
-import os
-import time
-from characters import build_character_tree
+import os # Opsional - hanya untuk clear_screen() di terminal
+import time # Opsional - hanya untuk animasi berpikir dan delay di akhir
+from characters import build_character_tree # Fungsi untuk membangun tree karakter
 from score import load_scores, save_score  # Opsional - hapus jika tidak pakai score.py
 
 
-def clear_screen():
+def clear_screen(): 
     """Bersihkan layar terminal."""
     os.system('cls' if os.name == 'nt' else 'clear')
 
@@ -37,9 +37,9 @@ def get_yes_no(question):
         print("       [1] Ya       [2] Tidak")
         answer = input("  >>> ").strip()
 
-        if answer in ('1', 'y', 'Y', 'ya', 'Ya', 'YA', 'yes', 'Yes', 'YES'):
+        if answer in ('1','y'):
             return True
-        elif answer in ('2', 'n', 'N', 'tidak', 'Tidak', 'TIDAK', 'no', 'No', 'NO'):
+        elif answer in ('2','n'):
             return False
         else:
             print("  ⚠️  Input tidak valid. Masukkan 1 (Ya) atau 2 (Tidak).")
@@ -84,9 +84,9 @@ def on_guess(character):
         print("  [1] Ya, benar!    [2] Tidak, salah")
         answer = input("  >>> ").strip()
 
-        if answer in ('1', 'y', 'Y', 'ya', 'Ya', 'yes'):
+        if answer in ('1','y'):
             return (character, True)
-        elif answer in ('2', 'n', 'N', 'tidak', 'Tidak', 'no'):
+        elif answer in ('2','n'):
             return (character, False)
         else:
             print("  ⚠️  Input tidak valid.")
@@ -170,9 +170,9 @@ def play_round(username=None):
     while True:
         print("  Mau main lagi?  [1] Ya    [2] Tidak")
         again = input("  >>> ").strip()
-        if again in ('1', 'y', 'Y', 'ya'):
+        if again in ('1'):
             return True
-        elif again in ('2', 'n', 'N', 'tidak'):
+        elif again in ('2','n'):
             return False
         else:
             print("  ⚠️  Input tidak valid.")

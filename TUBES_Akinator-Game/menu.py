@@ -3,8 +3,8 @@
 # Navigasi: Start, Lihat Skor, Tentang, Exit
 
 
-import os
-import time
+import os # Opsional - hanya untuk clear_screen() di terminal
+import time # Opsional - hanya untuk delay di halaman about
 from score import display_top_scores
 
 BANNER = r"""
@@ -123,7 +123,7 @@ def show_about():
     print()
     print("  Struktur data : Binary Decision Tree")
     print("  Algoritma     : Recursive Tree Traversal")
-    print("  Bahasa        : Python 3")
+    print("  Bahasa        : Python 3.12.12")
     print()
     print("  ──────────────────────────────────────")
     print("  Tugas Besar SG Basic 2026")

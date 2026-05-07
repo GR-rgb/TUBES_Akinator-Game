@@ -3,7 +3,7 @@
 # Data disimpan di file data/scores.txt
 
 
-import os
+import os # Opsional - hanya untuk memastikan folder data/ ada
 
 SCORES_FILE = os.path.join(os.path.dirname(__file__), 'data', 'scores.txt')
 
