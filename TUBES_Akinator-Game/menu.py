@@ -19,6 +19,7 @@ BANNER = r"""
   ║         Aku bisa membaca pikiranmu! 🔮           ║
   ║                                                  ║
   ╚══════════════════════════════════════════════════╝
+
 """
 
 
@@ -32,16 +33,8 @@ def print_separator(char='─', length=52):
 
 
 def show_main_menu(username=None):
-    """
-    Tampilkan menu utama dan kembalikan pilihan user.
+    """ Menampilkan menu utama dan mengembalikan pilihan dari user."""
 
-    Args:
-        username (str|None): Nama user yang sedang login
-
-    Returns:
-        str: Pilihan menu ('start', 'scores', 'about', 'exit',
-             'change_user')
-    """
     clear_screen()
     print(BANNER)
 
@@ -51,12 +44,12 @@ def show_main_menu(username=None):
 
     print_separator()
     print()
-    print("  [ 1 ]  ▶  Mulai Bermain")
-    print("  [ 2 ]  🏆  Lihat Top Skor")
-    print("  [ 3 ]  ℹ️   Tentang Game")
+    print("  [ 1 ] ▶  Mulai Bermain")
+    print("  [ 2 ] 🏆  Lihat Top Skor")
+    print("  [ 3 ] ℹ️   Tentang Game")
     if username:
         print("  [ 4 ]  🔄  Ganti User")
-    print("  [ 0 ]  ✖  Keluar")
+    print("  [ 0 ] ✖  Keluar")
     print()
     print_separator()
     print()
@@ -73,12 +66,8 @@ def show_main_menu(username=None):
 
 
 def ask_username():
-    """
-    Minta nama user di awal program (opsional).
+    """Minta nama user di awal program (opsional)."""
 
-    Returns:
-        str|None: Nama user, atau None jika dilewati
-    """
     clear_screen()
     print(BANNER)
     print("  ─────────────────────────────────────────")
@@ -92,13 +81,12 @@ def ask_username():
         return None
 
     # Validasi nama (hanya huruf, angka, spasi)
-    clean = ''.join(c for c in name if c.isalnum() or c == ' ').strip()
-    if not clean:
+    if not name.replace(" ", "").isalnum():
         print("  ⚠️  Nama tidak valid. Main tanpa akun.")
-        time.sleep(1.5)
+        time.sleep(1.2)
         return None
 
-    return clean[:20]  # Batasi 20 karakter
+    return name[:20]  # Batasi 20 karakter
 
 
 def show_about():
