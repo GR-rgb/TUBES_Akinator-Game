@@ -118,7 +118,7 @@ def show_about():
     print("  3. Akinator akan menebak tokohmu!")
     print()
     print("  ──────────────────────────────────────")
-    print("  Karakter yang tersedia: 24 tokoh")
+    print("  Karakter yang tersedia: 65 tokoh")
     print("  Anime, fiksi, pahlawan, sains, & lainnya")
     print()
     print("  Struktur data : Binary Decision Tree")
