@@ -67,11 +67,23 @@ traverse(node):
 Program ini dapat menebak karakter-karakter berikut:
 
 **Karakter Game**
-- Leon S. Kennedy, Chris Redfield, Jill Valentine, Ada Wong, Albert Wesker, Acheron, Kafka, Dan Heng, March 7th, Jing Yuan, Arthur Morgan, John Marston, Dutch van der Linde, Sadie Adler, Micah Bell, Agnes Tachyon, Special Week, Silence Suzuka, Tokai Teio, Gold Ship, Crash Bandicoot, Coco Bandicoot, Dr. Neo Cortex, Aku Aku, Dingodile, Vergil, Dante, Nero, Trish, Lady, Ezio Auditore, Altaïr Ibn-La'Ahad, Desmond Miles, Edward Kenway, Connor Kenway, 2B, 9S, A2, Pascal, Emil, Kazuya Mishima, Jin Kazama, Heihachi Mishima, Nina Williams, Yoshimitsu, Lara Croft, Winston Smith, Jonah Maiava, Jacqueline Natla, Amanda Evert, John Price, Ghost, John "Soap" MacTavish, Kyle "Gaz" Garrick, Vladimir Makarov, Scorpion, Sub-Zero, Liu Kang, Johnny Cage, Baraka, Kratos, Atreus, Mimir, Freya, dan Baldur.
+| **Resident Evil**        | Leon S. Kennedy, Chris Redfield, Jill Valentine, Ada Wong, Albert Wesker       |
+| **Honkai: Star Rail**    | Acheron, Kafka, Dan Heng, March 7th, Jing Yuan                                 |
+| **Red Dead Redemption**  | Arthur Morgan, John Marston, Dutch van der Linde, Sadie Adler, Micah Bell      |
+| **Umamusume**            | Agnes Tachyon, Special Week, Silence Suzuka, Tokai Teio, Gold Ship             |
+| **Crash Bandicoot**      | Crash Bandicoot, Coco Bandicoot, Dr. Neo Cortex, Aku Aku, Dingodile            |
+| **Devil May Cry**        | Vergil, Dante, Nero, Trish, Lady                                               |
+| **Assassin's Creed**     | Ezio Auditore, Altaïr Ibn-La'Ahad, Desmond Miles, Edward Kenway, Connor Kenway |
+| **NieR: Automata**       | 2B, 9S, A2, Pascal, Emil                                                       |
+| **Tekken**               | Kazuya Mishima, Jin Kazama, Heihachi Mishima, Nina Williams, Yoshimitsu        |
+| **Tomb Raider**          | Lara Croft, Winston Smith, Jonah Maiava, Jacqueline Natla, Amanda Evert        |
+| **Call of Duty**         | John Price, Ghost, John "Soap" MacTavish, Kyle "Gaz" Garrick, Vladimir Makarov |
+| **Mortal Kombat**        | Scorpion, Sub-Zero, Liu Kang, Johnny Cage, Baraka                              |
+| **God of War**           | Kratos, Atreus, Mimir, Freya, Baldur                                           |
 
 
-> Total: **65 karakter** yang dapat ditebak melalui jalur Ya/Tidak di dalam tree dan dapat bertambah selama masa pengembangan
-
+* Total: **65 karakter** yang dapat ditebak melalui jalur Ya/Tidak di dalam tree dan dapat bertambah selama masa pengembangan
+* **Status:** Pengembangan Aktif (Daftar karakter akan terus bertambah)
 ---
 
 ## 🧪 Contoh Alur Pertanyaan
@@ -106,7 +118,7 @@ Akinator: Segini Doang dek?
 - [x] Minimal 20 karakter sebagai leaf node
 - [x] Input validasi (Ya/Tidak)
 - [x] Tampilan hasil tebakan
-- [ ] Sistem user & top score *(opsional)*
+- [x] Sistem user & top score *(opsional)*
 
 ---
 
