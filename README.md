@@ -1,5 +1,6 @@
 # 🧞 Akinator Game
-> Tugas Besar SG Basic 2026 — Computing Laboratory GEN 10.0  
+> Tugas Besar SG Basic 2026 — Computing Laboratory GEN 10.0
+> Kelompok 2
 > Universitas Telkom
 
 ---
