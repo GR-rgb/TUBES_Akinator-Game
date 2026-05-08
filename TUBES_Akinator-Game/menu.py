@@ -122,7 +122,7 @@ def show_about():
     print("  ──────────────────────────────────────")
     print("  Struktur data : Binary Decision Tree")
     print("  Algoritma     : Recursive Tree Traversal")
-    print("  Bahasa        : Python 3.12.12")
+    print("  Bahasa        : Python 3.12.X")
     print()
     print("  ──────────────────────────────────────")
     print("  Tugas Besar SG Basic 2026")
