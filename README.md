@@ -67,10 +67,10 @@ traverse(node):
 Program ini dapat menebak karakter-karakter berikut:
 
 **Karakter Game**
-- Leon S. Kennedy⁠, ⁠Acheron, Arthur Morgan, ⁠Agnes Tachyon, ⁠Crash Bandicoot, ⁠Vergil, ⁠Ezio Auditore, ⁠2B, ⁠Kazuya Mishima, ⁠Lara Croft, ⁠John Price, ⁠John Marston, ⁠Ghost, Scorpion, Johnny Cage, ⁠Baraka, ⁠Sub-Zero, ⁠Liu Kang, Kratos
+- Leon S. Kennedy, Chris Redfield, Jill Valentine, Ada Wong, Albert Wesker, Acheron, Kafka, Dan Heng, March 7th, Jing Yuan, Arthur Morgan, John Marston, Dutch van der Linde, Sadie Adler, Micah Bell, Agnes Tachyon, Special Week, Silence Suzuka, Tokai Teio, Gold Ship, Crash Bandicoot, Coco Bandicoot, Dr. Neo Cortex, Aku Aku, Dingodile, Vergil, Dante, Nero, Trish, Lady, Ezio Auditore, Altaïr Ibn-La'Ahad, Desmond Miles, Edward Kenway, Connor Kenway, 2B, 9S, A2, Pascal, Emil, Kazuya Mishima, Jin Kazama, Heihachi Mishima, Nina Williams, Yoshimitsu, Lara Croft, Winston Smith, Jonah Maiava, Jacqueline Natla, Amanda Evert, John Price, Ghost, John "Soap" MacTavish, Kyle "Gaz" Garrick, Vladimir Makarov, Scorpion, Sub-Zero, Liu Kang, Johnny Cage, Baraka, Kratos, Atreus, Mimir, Freya, dan Baldur.
 
 
-> Total: **20 karakter** yang dapat ditebak melalui jalur Ya/Tidak di dalam tree dan dapat bertambah selama masa pengembangan
+> Total: **65 karakter** yang dapat ditebak melalui jalur Ya/Tidak di dalam tree dan dapat bertambah selama masa pengembangan
 
 ---
 
