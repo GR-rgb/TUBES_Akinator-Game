@@ -2,3 +2,4 @@ Gao,80
 a,85
 icikiwir,80
 test1,50
+fadhlan,75

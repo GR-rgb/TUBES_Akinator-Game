@@ -5,7 +5,7 @@
 
 import os # Opsional - hanya untuk clear_screen() di terminal
 import time # Opsional - hanya untuk animasi berpikir dan delay di akhir
-from characters import build_character_tree # Fungsi untuk membangun tree karakter
+from characters import build_character_tree, art # Fungsi untuk membangun tree karakter
 from score import load_scores, save_score  # Opsional - hapus jika tidak pakai score.py
 
 
@@ -76,6 +76,8 @@ def on_guess(character):
     print()
     print(f"  ✨  Apakah itu...  » {character} «  ?!")
     print()
+    print(art.get(character))
+    print
     print_separator('═')
     print()
 
