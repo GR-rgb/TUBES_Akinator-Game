@@ -447,8 +447,24 @@ CHARACTER_LIST = [
     # Mortal Kombat
     "Scorpion", "Sub-Zero", "Liu Kang", "Johnny Cage", "Baraka",
     # God of War
-    "Kratos", "Atreus", "Mimir", "Freya", "Baldur",
+    "Kratos", "Atreus", "Mimir", "Freya", "Baldur"
 ]
+
+CHARACTERS_BY_GAME = {
+    "Resident Evil": CHARACTER_LIST[0:5],
+    "Honkai: Star Rail": CHARACTER_LIST[5:10],
+    "Red Dead Redemption": CHARACTER_LIST[10:15],
+    "Uma Musume: Pretty Derby": CHARACTER_LIST[15:20],
+    "Crash Bandicoot": CHARACTER_LIST[20:25],
+    "Devil May Cry": CHARACTER_LIST[25:30],
+    "Assassin's Creed": CHARACTER_LIST[30:35],
+    "NieR: Automata": CHARACTER_LIST[35:40],
+    "Tekken": CHARACTER_LIST[40:45],
+    "Tomb Raider": CHARACTER_LIST[45:50],
+    "Call of Duty: Modern Warfare": CHARACTER_LIST[50:55],
+    "Mortal Kombat": CHARACTER_LIST[55:60],
+    "God of War": CHARACTER_LIST[60:65]
+}   
 
 art = {
     "Leon S. Kennedy": """⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀

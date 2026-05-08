@@ -6,6 +6,7 @@
 import os # Opsional - hanya untuk clear_screen() di terminal
 import time # Opsional - hanya untuk delay di halaman about
 from score import display_top_scores
+from characters import CHARACTERS_BY_GAME # Untuk menampilkan daftar karakter setiap game di halaman about
 
 BANNER = r"""
 ✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨
@@ -110,7 +111,15 @@ def show_about():
     print("  ──────────────────────────────────────")
     print("  Karakter yang tersedia: 65 tokoh")
     print("  Anime, fiksi, pahlawan, sains, & lainnya")
+    print("  Game dan karakter yang tersedia :")
     print()
+
+    for game,characters in CHARACTERS_BY_GAME.items():
+        print(f" 🎮 {game}")
+        print(f"  {game}: {', '.join(characters)}")
+        print()
+
+    print("  ──────────────────────────────────────")
     print("  Struktur data : Binary Decision Tree")
     print("  Algoritma     : Recursive Tree Traversal")
     print("  Bahasa        : Python 3.12.12")
