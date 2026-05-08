@@ -12,13 +12,13 @@ Program ini adalah implementasi game **Akinator** berbasis terminal yang menebak
 
 ## 👥 Anggota Kelompok
 
-|            Nama            |      NIM       | Kontribusi |
-|----------------------------|----------------|------------|
-| [Ezzar Kaysan Gumilar]     | [103012500139] | [Bagian]   |
-| [Fadhlan Anargya Agustian] | [103012400006] | [Bagian]   |
-| [Fakhri Nur Ramdhani]      | [103012400214] | [Bagian]   |
-| [Fatih Akram Wicaksono]    | [103012500318] | [Bagian]   |
-| [Ghifar Anshari Rabbani]   | [103012400003] | [Bagian]   |
+|           Nama           |     NIM      |
+|--------------------------|--------------|
+| Ezzar Kaysan Gumilar     | 103012500139 |
+| Fadhlan Anargya Agustian | 103012400006 |
+| Fakhri Nur Ramdhani      | 103012400214 |
+| Fatih Akram Wicaksono    | 103012500318 |
+| Ghifar Anshari Rabbani   | 103012400003 |
 
 ---
 
@@ -85,7 +85,6 @@ Program ini dapat menebak karakter-karakter berikut:
 
 
 * Total: **65 karakter** yang dapat ditebak melalui jalur Ya/Tidak di dalam tree dan dapat bertambah selama masa pengembangan
-* **Status:** Pengembangan Aktif (Daftar karakter akan terus bertambah)
 ---
 
 ## 🧪 Contoh Alur Pertanyaan
@@ -106,7 +105,7 @@ User: Ya
 Akinator: Apakah itu... KRATOS?!
 User: Ya
 
-Akinator: Segini Doang dek?
+Akinator: Yatta Aku Berhasil Menebaknya >w<
 ```
 
 ---
